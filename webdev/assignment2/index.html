@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sales</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .right-side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ffffff;
+        flex: 1;
+    }
+    .parent{
+        display: flex;
+        min-height: 100vh;
+        width: 100%;
+    }
+    #inputField{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input{
+        border: 0.5px solid rgb(78, 76, 76);
+        width: 200px;
+        height: 35px;
+        border-radius: 12px;
+    }
+    .left-side{
+        position: relative;
+        background-color: #1c1c1c;
+        flex:1;
+        color: #ffffff;
+        position: relative;
+        width: 50%;
+    }
+    .logo{
+        position: relative;
+        top: 15%;
+        left: 13%;
+        font-size: 150px;
+        word-wrap: normal;
+        font-family: sans-serif;
+        
+    }
+    .text{
+        position: relative;
+        top: 20%;
+        left: 20%;
+        display: flex;
+        justify-content:center;
+        align-items:start;
+        flex-direction: column;
+        font-size: x-large;
+    }
+</style>
+
+<body>
+    <div class="parent">
+        <div class="left-side">
+            <div class="logo">ElevenLabs</div>
+            <div class="text">
+                <h2>Contact our sales team</h2>
+                <p>Custom pricing and elevated concurrency</p>
+                <p>
+                Enterprise-grade security including SOC II, GDPR and HIPAA compliance
+                </p>
+                <p>
+                Enterprise support and SLAs
+            </p>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="right-parent">
+                <div style="font-size: 200px;">Contact Sales Form</div>
+                <div style="padding: 10%;display: flex;justify-content: space-between;font-family: sans-serif;">
+                    <div id="inputField">
+                        <div style="padding-bottom: 10%;font-size: larger;">Company Website</div>
+                        <div><input type="text" placeholder="elevenlabs.io" class="input"></div>
+                    </div>
+                    <div id="inputField">
+                        <div style="padding-bottom: 10%;font-size: larger;">Buisness Email</div>
+                        <div><input type="text" placeholder="example@elevenlabs.io" class="input"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

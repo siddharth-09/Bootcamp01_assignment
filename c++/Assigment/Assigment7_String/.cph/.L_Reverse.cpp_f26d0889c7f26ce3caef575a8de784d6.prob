@@ -1,0 +1,1 @@
+{"name":"Local: L_Reverse","url":"/Users/siddharthpanchal/bootcamp_assignment/c++/Assigment/Assigment7_String/L_Reverse.cpp","tests":[{"id":1770979953674,"input":"hello","output":"olleh\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/siddharthpanchal/bootcamp_assignment/c++/Assigment/Assigment7_String/L_Reverse.cpp","group":"local","local":true}
